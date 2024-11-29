@@ -10,7 +10,9 @@ public class Address {
     public String getStreetNo() {
         return streetNo;
     }
+    public Address() {
 
+    }
     public void setStreetNo(String streetNo) {
         this.streetNo = streetNo;
     }
@@ -65,4 +67,6 @@ public class Address {
         this.district = district;
         this.state = state;
     }
+
+
 }

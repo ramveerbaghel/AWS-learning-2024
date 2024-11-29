@@ -77,6 +77,7 @@ public class Student {
         this.firstName = firstName;
     }
 
+    public Student() {
 
-
+    }
 }
